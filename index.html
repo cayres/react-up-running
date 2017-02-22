@@ -1,0 +1,22 @@
+<html>
+<header></header>
+<body>
+
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script src="./data.js"></script>
+    <script src="./excel.js"></script>
+    <script>
+        ReactDOM.render(
+            React.createElement(Excel, {
+                headers: headers,
+                initialData: data
+            }),
+            document.getElementById("app")
+        );
+
+        
+    </script>
+</body>
+</html>
