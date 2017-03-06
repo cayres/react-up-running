@@ -83,3 +83,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+reactbook-boiler/__deployme
+reactbook-boiler/js/build
