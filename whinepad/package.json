@@ -5,8 +5,10 @@
   "main": "js/source/app.js",
   "dependencies": {},
   "devDependencies": {
+    "babel-cli": "^6.24.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "browserify": "^14.1.0",
     "classnames": "^2.2.5",
     "cssshrink": "0.0.5",
     "react": "^15.4.2",
